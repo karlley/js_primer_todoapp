@@ -1,4 +1,4 @@
-export class EvenEmitter {
+export class EventEmitter {
   #listeners = new Map();
 
   addEventListener(type, listener) {
