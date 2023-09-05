@@ -110,3 +110,7 @@ npx --yes @js-primer/local-server
   - プライベートフィールド
   - https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Classes/Private_class_fields
   - Rubyの`private` みたいなもの？
+
+- `createElement` メソッド
+  - 引数のHTML要素を生成する
+  - https://developer.mozilla.org/ja/docs/Web/API/Document/createElement
