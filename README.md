@@ -114,3 +114,13 @@ npx --yes @js-primer/local-server
 - `createElement` メソッド
   - 引数のHTML要素を生成する
   - https://developer.mozilla.org/ja/docs/Web/API/Document/createElement
+
+- イベントリスナーは登録したままだとメモリリークを起こす
+  - 使わなくなったイベントリスナーは削除することが好ましい
+
+- ライフサイクル
+  - ページ読み込み完了: `load` イベントでマウントする
+  - 読み込みページの破棄: `unload` イベントでアンマウントする
+
+- ライブラリを使ったTODOアプリがまとまっているサイト
+  - [TodoMVC](https://todomvc.com/)
